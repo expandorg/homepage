@@ -7,11 +7,11 @@ import Hero from './Hero/Hero';
 import Gallery from './Gallery/Gallery';
 
 export default function App() {
-	return (
-		<Page>
-			<Navbar />
-			<Hero />
-			<Gallery />
-		</Page>
-	);
+  return (
+    <Page>
+      <Navbar />
+      <Hero />
+      <Gallery />
+    </Page>
+  );
 }

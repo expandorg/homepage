@@ -1,5 +1,15 @@
 {
+  "parser": "babel-eslint",
   "extends": [
-    "eslint-config-synacor"
-  ]
+    "eslint-config-synacor",
+    "plugin:flowtype/recommended",
+    "prettier",
+    "prettier/flowtype",
+    "prettier/react"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "react/sort-comp": ["off"]
+  },
+  "plugins": ["prettier", "flowtype", "react"]
 }
