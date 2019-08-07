@@ -1,0 +1,70 @@
+.container {
+  padding: 9px 3px 5px;
+
+  box-sizing: border-box;
+  border: 1px solid #8CBBEE;
+  border-radius: 20px;
+
+  cursor: pointer;
+
+  height: 338px;
+  position: relative;
+}
+
+.img {
+  margin: 0 auto;
+  display: block;
+  border-radius: 15px;
+  max-height: 220px;
+}
+
+.title {
+  font-family: Avenir;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+
+  margin-top: 16px;
+
+  padding-left: 10px;
+}
+
+.text {
+  font-family: Avenir;
+  font-size: 16px;
+  line-height: 22px;
+
+  padding: 0 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.active {
+  height: 379px;
+  background: white;
+
+  border-bottom-color: white;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+
+  transition: height 0.2s;
+  position: relative;
+}
+
+.container::after {
+  position: absolute;
+
+  content: '';
+
+  top: 377px;
+  left: -1px;
+  height: 4px;
+  width: calc(100% + 1px);
+  background: white;
+  display: none;
+
+}
+
+.active::after {
+  display: block;
+}

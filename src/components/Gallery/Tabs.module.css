@@ -1,0 +1,23 @@
+.container {
+  background: white;
+  width: 100%;
+
+  padding: 0 15px;
+
+  box-sizing: border-box;
+  background: white;
+  position: relative;
+
+  z-index: 2;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.tab {
+  width: 238px;
+  height: 338px;
+}

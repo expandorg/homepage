@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+
+  border: 1px solid #8CBBEE;
+  border-radius: 20px;
+
+  padding-top: 40px;
+  padding-left: 40px;
+  margin-top: 40px;
+  width: 100%;
+  box-sizing: border-box;
+
+  box-shadow: 0px 4px 4px #DFEEFF;
+}
+
+.img {
+  border-radius: 15px;
+
+  width: 740px;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.right {
+  flex: 1;
+
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.rc {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: Avenir;
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 33px;
+
+margin-bottom: 16px;
+}
+
+.text {
+  font-family: Avenir;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+}
+
+.signup {
+  box-sizing: border-box;
+  display: inline-block;
+
+  height: 60px;
+  width: 300px;
+  margin-top: 36px;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 60px;
+
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+
+  color: #FFFFFF;
+  background-color: #1471EB;
+  border-radius: 5px;
+}
