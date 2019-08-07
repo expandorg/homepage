@@ -1,0 +1,61 @@
+.container {
+  box-sizing: border-box;
+  padding: 40px 40px 0 40px;
+}
+
+.inner {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+
+  text-decoration: none;
+  color: #666666;
+}
+
+.right {
+  display: flex;
+  align-items: center
+}
+
+.worker, .login {
+  box-sizing: border-box;
+
+  height: 40px;
+  line-height: 38px;
+
+  border-radius: 2px;
+  border: 1px solid #8CBBEE;
+  color: #2068BC;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+}
+
+.worker {
+  background: #DBEBFF;
+  margin-right: 32px;
+  width: 325px;
+
+}
+
+.login {
+  background: #FFFFFF;
+  margin-right: 32px;
+  width: 110px;
+}
