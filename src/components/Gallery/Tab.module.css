@@ -61,8 +61,8 @@
   height: 4px;
   width: calc(100% + 1px);
   background: white;
-  display: none;
 
+  display: none;
 }
 
 .active::after {
