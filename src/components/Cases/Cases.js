@@ -1,11 +1,11 @@
 import { h } from 'preact';
 
 import SectionHeader from '../shared/Section/Header';
+import ActionLink from '../shared/ActionLink';
 
 import man2 from './man2.png';
 
 import styles from './Cases.module.css';
-import ActionLink from '../shared/ActionLink';
 
 export default function Cases() {
   return (

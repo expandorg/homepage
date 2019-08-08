@@ -18,3 +18,31 @@
 
   pointer-events: none;
 }
+
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 320px;
+  min-width: 320px;
+}
+
+.text {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #2068BC;
+}
+
+.bold {
+  font-weight: 800
+}
+
+.signup {
+  margin-top: 40px;
+}
