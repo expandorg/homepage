@@ -1,6 +1,6 @@
 import { h } from 'preact';
 
-import Page from './shared/Page';
+import Page from './Page/Page';
 
 import Hero from './Hero/Hero';
 import Gallery from './Gallery/Gallery';
