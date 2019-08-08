@@ -1,0 +1,21 @@
+.container {
+  box-sizing: border-box;
+  padding: 30px 80px;
+  background-color: #FFDABF;
+}
+
+.copyright {
+  text-align: center;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: 0.15em;
+
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #666666;
+}
