@@ -1,0 +1,38 @@
+.container {
+  box-sizing: border-box;
+}
+
+.header {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+
+  min-height: 260px;
+  padding-top: 150px;
+  padding-left: 80px;
+
+
+  background-color: #CBFCF4;
+  background-image: url(./bg-yellow.svg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 49px;
+
+  color: #694C00;
+
+  padding-right: 20px;
+  background-color: #FEEEC0;
+}
+
+.cc{
+  background-color: #FEEEC0;
+  padding: 0 80px;
+}
