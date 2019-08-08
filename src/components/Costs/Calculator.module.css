@@ -24,8 +24,15 @@
 
 .wrap {
   flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
 }
-
+.ins {
+  display: block;
+  margin-left: 14px;
+  margin-right: 14px
+}
 .input {
   box-sizing: border-box;
 
@@ -50,7 +57,6 @@
 .input::placeholder {
   color: white;
 }
-
 
 .result {
   display: flex;

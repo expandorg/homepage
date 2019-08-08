@@ -2,6 +2,14 @@ import { h, Component } from 'preact';
 
 import styles from './Calculator.module.css';
 
+function cost(mins, tasks) {
+  if (Number.isNaN(mins) || Number.isNaN(tasks)) {
+    return 0;
+  }
+
+  return tasks * tasks;
+}
+
 export default class Calculator extends Component {
   constructor(props) {
     super(props);
@@ -17,8 +25,6 @@ export default class Calculator extends Component {
   };
 
   render(props, { mins, tasks }) {
-    const reslut = 0;
-
     return (
       <div className={styles.container}>
         <div className={styles.content}>
@@ -49,7 +55,7 @@ export default class Calculator extends Component {
             />
           </div>
         </div>
-        <div className={styles.result}>XPN = {reslut} USD </div>
+        <div className={styles.result}>XPN = {cost(+mins, +tasks)} USD </div>
       </div>
     );
   }
