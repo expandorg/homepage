@@ -36,7 +36,7 @@ export default function Costs() {
               Sign up
             </ActionLink>
           </Left>
-          <Right>
+          <Right className={styles.right}>
             <Calculator />
           </Right>
         </Content>

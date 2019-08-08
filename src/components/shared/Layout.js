@@ -1,4 +1,5 @@
 import { h } from 'preact';
+import cn from 'classnames';
 
 import styles from './Layout.module.css';
 
@@ -10,6 +11,6 @@ export function Left({ children }) {
   return <div className={styles.left}>{children}</div>;
 }
 
-export function Right({ children }) {
-  return <div className={styles.right}>{children}</div>;
+export function Right({ children, className }) {
+  return <div className={cn(styles.right, className)}>{children}</div>;
 }
