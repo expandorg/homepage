@@ -1,7 +1,7 @@
 import { h } from 'preact';
 
-import styles from './Featues.module.css';
+import styles from './Features.module.css';
 
 export default function Features() {
-  return <div className={styles.container} />;
+  return <div className={styles.test}>123</div>;
 }

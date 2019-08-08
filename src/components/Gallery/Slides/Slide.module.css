@@ -1,4 +1,6 @@
 .container {
+  box-sizing: border-box;
+
   display: flex;
   align-items: flex-start;
 
@@ -7,6 +9,7 @@
 
   padding-top: 40px;
   padding-left: 40px;
+
   margin-top: 40px;
   width: 100%;
   box-sizing: border-box;
@@ -14,16 +17,20 @@
   box-shadow: 0px 4px 4px #DFEEFF;
 }
 
-.img {
-  border-radius: 15px;
+.content {
+  box-sizing: border-box;
+  width: 100%;
 
-  width: 740px;
+  display: none;
 }
 
-.content {
+.visible {
   display: flex;
-  width: 100%;
-  box-sizing: border-box;
+}
+
+.img {
+  border-radius: 15px;
+  width: 740px;
 }
 
 .right {
@@ -41,23 +48,24 @@
 
 .title {
   font-family: Avenir;
-font-style: normal;
-font-weight: 900;
-font-size: 24px;
-line-height: 33px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 33px;
 
-margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .text {
   font-family: Avenir;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 19px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
 }
 
-.signup {
+
+.action {
   box-sizing: border-box;
   display: inline-block;
 

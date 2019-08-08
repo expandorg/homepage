@@ -2,7 +2,8 @@ import { Component } from 'preact';
 
 import Line from '../shared/Line';
 import Tabs from './Tabs';
-import Content from './Content';
+import { Container } from './Slides/Slide';
+import { First, Second } from './Slides/Slides';
 
 import styles from './Gallery.module.css';
 
@@ -11,15 +12,15 @@ export default class Gallery extends Component {
     super(props);
 
     this.state = {
-      selected: 0,
+      active: 0,
     };
   }
 
-  handleChange = selected => {
-    this.setState({ selected });
+  handleChange = active => {
+    this.setState({ active });
   };
 
-  render(_, { selected }) {
+  render(_, { active }) {
     return (
       <div className={styles.container}>
         <div className={styles.header}>
@@ -28,8 +29,11 @@ export default class Gallery extends Component {
         </div>
         <div className={styles.cc}>
           <div className={styles.content}>
-            <Tabs onChange={this.handleChange} active={selected} />
-            <Content onChange={this.handleChange} active={selected} />
+            <Tabs onChange={this.handleChange} active={active} />
+            <Container>
+              <First onChange={this.handleChange} active={active} />
+              <Second onChange={this.handleChange} active={active} />
+            </Container>
           </div>
         </div>
       </div>

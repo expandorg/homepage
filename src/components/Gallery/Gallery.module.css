@@ -3,6 +3,8 @@
 }
 
 .header {
+  box-sizing: border-box;
+
   min-height: 260px;
   padding-top: 150px;
 
@@ -31,7 +33,7 @@
 }
 
 .content {
-  width: 1256px;
+  max-width: 1256px;
   margin: 0 auto;
 }
 
