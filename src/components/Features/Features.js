@@ -1,6 +1,6 @@
 import { h } from 'preact';
 
-import Line from '../shared/Line';
+import SectionHeader from '../shared/Section/Header';
 import Feature from './Feature';
 
 import styles from './Features.module.css';
@@ -8,10 +8,7 @@ import styles from './Features.module.css';
 export default function Features() {
   return (
     <div className={styles.container}>
-      <div className={styles.header}>
-        <div className={styles.title}>Features you might like...</div>
-        <Line />
-      </div>
+      <SectionHeader title="Features you might like..." color="cyan" />
       <div className={styles.cc}>
         <div className={styles.content}>
           <div className={styles.features}>

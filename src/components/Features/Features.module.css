@@ -2,36 +2,6 @@
   box-sizing: border-box;
 }
 
-.header {
-  box-sizing: border-box;
-  display: flex;
-  align-items: center;
-
-  min-height: 260px;
-  padding-top: 150px;
-  padding-left: 80px;
-
-
-  background-color: white;
-  background-image: url(./bg-cyan.svg);
-  background-position: top left;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.title {
-  font-family: 'Avenir';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 36px;
-  line-height: 49px;
-
-  color: #25796A;
-
-  padding-right: 20px;
-  background-color: #CBFCF4;
-}
-
 .cc{
   background-color: #CBFCF4;
   padding: 0 80px;

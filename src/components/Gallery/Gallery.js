@@ -1,6 +1,6 @@
 import { Component } from 'preact';
 
-import Line from '../shared/Line';
+import SectionHeader from '../shared/Section/Header';
 import Tabs from './Tabs';
 import { Container } from './Slides/Slide';
 import { First, Second, Third, Fourth, Fifth } from './Slides/Slides';
@@ -23,10 +23,7 @@ export default class Gallery extends Component {
   render(_, { active }) {
     return (
       <div className={styles.container}>
-        <div className={styles.header}>
-          <div className={styles.title}>Here’s some inspiration</div>
-          <Line />
-        </div>
+        <SectionHeader title="Here’s some inspiration" color="white" />
         <div className={styles.cc}>
           <div className={styles.content}>
             <Tabs onChange={this.handleChange} active={active} />

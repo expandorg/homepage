@@ -31,3 +31,11 @@
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+
+.buttonLeft svg {
+  transform: rotate(180deg);
+}
+
+.disabled svg path{
+  fill: #C4C4C4
+}
