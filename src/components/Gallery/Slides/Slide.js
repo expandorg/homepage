@@ -2,6 +2,7 @@ import { h } from 'preact';
 import cn from 'classnames';
 
 import BackNext from './BackNext';
+import ActionLink from '../../shared/ActionLink';
 
 import styles from './Slide.module.css';
 
@@ -19,9 +20,9 @@ export function Text({ children }) {
 
 export function Action({ children, href }) {
   return (
-    <a className={styles.action} href={href}>
+    <ActionLink className={styles.action} href={href}>
       {children}
-    </a>
+    </ActionLink>
   );
 }
 

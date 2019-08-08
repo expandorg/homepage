@@ -5,6 +5,7 @@ import SectionHeader from '../shared/Section/Header';
 import man2 from './man2.png';
 
 import styles from './Cases.module.css';
+import ActionLink from '../shared/ActionLink';
 
 export default function Cases() {
   return (
@@ -24,12 +25,12 @@ export default function Cases() {
               accoriding to your needs. And our workerbase completes these tasks
               with realability and timeliness.
             </div>
-            <a
+            <ActionLink
               className={styles.signup}
               href="https://requester.expand.org/signup"
             >
               Sign up
-            </a>
+            </ActionLink>
           </div>
           <div className={styles.right}>
             <img
