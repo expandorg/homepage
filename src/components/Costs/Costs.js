@@ -1,6 +1,7 @@
 import { h } from 'preact';
 
 import SectionHeader from '../shared/Section/Header';
+import { Content, Left, Right } from '../shared/Layout';
 import ActionLink from '../shared/ActionLink';
 import Calculator from './Calculator';
 
@@ -14,8 +15,8 @@ export default function Costs() {
       <SectionHeader title="Estimate Costs" color="orange" />
       <img src={man3} className={styles.man3} />
       <div className={styles.cc}>
-        <div className={styles.content}>
-          <div className={styles.left}>
+        <Content>
+          <Left>
             <div className={styles.text}>
               If you have a job in mind, you can calculate your potential cost
               here. The range above is included becuase the budget should vary
@@ -34,11 +35,11 @@ export default function Costs() {
             >
               Sign up
             </ActionLink>
-          </div>
-          <div className={styles.right}>
+          </Left>
+          <Right>
             <Calculator />
-          </div>
-        </div>
+          </Right>
+        </Content>
       </div>
     </div>
   );

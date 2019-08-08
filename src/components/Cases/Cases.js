@@ -2,6 +2,7 @@ import { h } from 'preact';
 
 import SectionHeader from '../shared/Section/Header';
 import ActionLink from '../shared/ActionLink';
+import { Content, Left, Right } from '../shared/Layout';
 
 import man2 from './man2.png';
 
@@ -13,8 +14,8 @@ export default function Cases() {
       <SectionHeader title="What do we do?" color="yellow" />
       <img src={man2} className={styles.man2} />
       <div className={styles.cc}>
-        <div className={styles.content}>
-          <div className={styles.left}>
+        <Content>
+          <Left>
             <div className={styles.text}>
               Do you need to train AI? Are you doing research requiring
               collection or of data? Do you have a business proceedure that
@@ -31,15 +32,15 @@ export default function Cases() {
             >
               Sign up
             </ActionLink>
-          </div>
-          <div className={styles.right}>
+          </Left>
+          <Right>
             <img
               className={styles.img}
               src="/assets/case1.png"
               alt="What do we do?"
             />
-          </div>
-        </div>
+          </Right>
+        </Content>
       </div>
     </div>
   );

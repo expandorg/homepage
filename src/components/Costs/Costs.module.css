@@ -19,17 +19,6 @@
   pointer-events: none;
 }
 
-
-.content {
-  display: flex;
-  justify-content: space-between;
-}
-
-.left {
-  width: 320px;
-  min-width: 320px;
-}
-
 .text {
   font-family: Avenir;
   font-style: normal;
