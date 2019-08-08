@@ -1,10 +1,22 @@
 .container {
   box-sizing: border-box;
+  position: relative;
 }
 
 .cc{
   background-color: #CBFCF4;
   padding: 86px 80px 65px;
+}
+
+.man1 {
+  position: absolute;
+  top: -60px;
+  right: 80px;
+
+  width: 335px;
+  height: 190px;
+
+  pointer-events: none;
 }
 
 .features {

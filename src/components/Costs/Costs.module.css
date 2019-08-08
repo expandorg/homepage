@@ -1,7 +1,20 @@
 .container {
   box-sizing: border-box;
+  position: relative;
 }
 
 .cc{
-  padding: 0 80px;
+  background-color: #FFDABF;
+  padding: 68px 80px 100px;
+}
+
+.man3 {
+  position: absolute;
+  top: -21px;
+  right: 80px;
+
+  width: 242px;
+  height: 362px;
+
+  pointer-events: none;
 }

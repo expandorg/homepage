@@ -3,12 +3,15 @@ import { h } from 'preact';
 import SectionHeader from '../shared/Section/Header';
 import Feature from './Feature';
 
+import man1 from './man1.png';
+
 import styles from './Features.module.css';
 
 export default function Features() {
   return (
     <div className={styles.container}>
       <SectionHeader title="Features you might like..." color="cyan" />
+      <img src={man1} className={styles.man1} />
       <div className={styles.cc}>
         <div className={styles.content}>
           <div className={styles.features}>
