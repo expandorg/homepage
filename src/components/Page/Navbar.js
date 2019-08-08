@@ -10,9 +10,6 @@ export default function Navbar() {
           Expand
         </a>
         <div className={styles.right}>
-          <a className={styles.worker} href="https://expand.org">
-            interested in being a worker?
-          </a>
           <a className={styles.login} href="https://expand.org">
             log in
           </a>

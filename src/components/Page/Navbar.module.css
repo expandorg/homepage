@@ -30,15 +30,17 @@
   align-items: center
 }
 
-.worker, .login {
+.login {
   box-sizing: border-box;
 
   height: 40px;
+  width: 110px;
   line-height: 38px;
 
+  color: #2068BC;
+  background-color: #FFFFFF;
   border-radius: 2px;
   border: 1px solid #8CBBEE;
-  color: #2068BC;
 
   font-family: Avenir;
   font-style: normal;
@@ -51,14 +53,4 @@
   text-align: center;
 }
 
-.worker {
-  background: #DBEBFF;
-  margin-right: 32px;
-  width: 325px;
 
-}
-
-.login {
-  background: #FFFFFF;
-  width: 110px;
-}

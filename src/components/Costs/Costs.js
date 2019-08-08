@@ -24,10 +24,6 @@ export default function Costs() {
               More highly skilled workers will require higher pay.
               <br />
               <br />
-              <span className={styles.bold}>
-                Estimated Cost with out Competitors, for the same task: $540 -
-                $2,400.
-              </span>
             </div>
             <ActionLink
               className={styles.signup}
@@ -38,6 +34,10 @@ export default function Costs() {
           </Left>
           <Right className={styles.right}>
             <Calculator />
+            <div className={styles.est}>
+              Estimated Cost with out Competitors, for the same task: $540 -
+              $2,400.
+            </div>
           </Right>
         </Content>
       </div>
