@@ -1,14 +1,12 @@
 import { h } from 'preact';
 import cn from 'classnames';
 
+import BackNext from './BackNext';
+
 import styles from './Slide.module.css';
 
 export function Container({ children }) {
   return <div className={styles.container}>{children}</div>;
-}
-
-export function BackNext({ children }) {
-  return <div className={styles.backnext} />;
 }
 
 export function Title({ children }) {
@@ -36,6 +34,7 @@ export function Slide({ children, src, onChange, active, id }) {
       </div>
       <div className={styles.right}>
         <div className={styles.rc}>{children}</div>
+        <BackNext onChange={onChange} active={active} />
       </div>
     </div>
   );
