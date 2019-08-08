@@ -5,6 +5,7 @@ import Navbar from './shared/Navbar';
 import Hero from './Hero/Hero';
 import Gallery from './Gallery/Gallery';
 import Features from './Features/Features';
+import Cases from './Cases/Cases';
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Hero />
       <Gallery />
       <Features />
+      <Cases />
     </Page>
   );
 }
