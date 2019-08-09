@@ -26,6 +26,11 @@ export default function Hero() {
         >
           Sign up
         </ActionLink>
+        <div className={styles.secondary}>
+          <a className={styles.worker} href="https://expand.org">
+            Are you a worker?
+          </a>
+        </div>
       </div>
     </div>
   );
