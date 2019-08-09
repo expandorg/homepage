@@ -49,11 +49,15 @@
 .signup {
   margin-top: 27px;
   width: 180px;
+
+  background-color: #E60060
 }
 
 @media(max-width: 767px) {
   .container {
     margin-top: 40px;
+    background-position: right bottom;
+    height: 700px;
   }
 
   .hero {
