@@ -8,8 +8,9 @@
 
   background-position: top left;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
 }
+
 .white {
   min-height: 245px;
   padding-top: 195px;
@@ -71,3 +72,50 @@
   background-color: #FFDABF;
 }
 
+.line {
+  width: 100%;
+
+  height: 1px;
+
+  background: #8CBBEE;
+  flex: 1;
+
+  display: inline-block;
+
+  position: relative;
+  top: 2px;
+}
+
+
+@media(max-width: 767px) {
+
+  .header {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .white {
+    min-height: 160px;
+    padding-top: 110px;
+  }
+
+  .cyan {
+    min-height: 180px;
+    padding-top: 130px;
+  }
+
+  .yellow {
+    min-height: 310px;
+    padding-top: 260px;
+  }
+
+  .orange {
+    min-height: 390px;
+    padding-top: 340px;
+  }
+
+}
