@@ -19,6 +19,7 @@
   background-position-y: 0px;
   background-repeat: no-repeat;
   background-size: initial;
+
   background-origin: border-box;
 }
 
@@ -45,25 +46,7 @@
 }
 
 .signup {
-  box-sizing: border-box;
-  display: inline-block;
-
-  height: 50px;
-  width: 180px;
   margin-top: 27px;
-
-  font-family: Avenir;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 12px;
-  line-height: 50px;
-
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
-
-  color: #FFFFFF;
+  width: 180px;
   background-color: #E60060;
-  border-radius: 5px;
 }

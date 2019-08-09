@@ -1,5 +1,7 @@
 import { h } from 'preact';
 
+import ActionLink from '../shared/ActionLink';
+
 import styles from './Hero.module.css';
 
 export default function Hero() {
@@ -18,9 +20,12 @@ export default function Hero() {
           <br />
           Ethical Pricing for Workers & Requesters.
         </h3>
-        <a className={styles.signup} href="https://requester.expand.org/signup">
+        <ActionLink
+          className={styles.signup}
+          href="https://requester.expand.org/signup"
+        >
           Sign up
-        </a>
+        </ActionLink>
       </div>
     </div>
   );

@@ -7,15 +7,18 @@
   box-sizing: border-box;
   background: white;
   position: relative;
+}
 
-  z-index: 2;
+@media(max-width: 767px) {
+  .container  {
+    display: none;
+  }
 }
 
 .content {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-
 }
 
 .tab {
