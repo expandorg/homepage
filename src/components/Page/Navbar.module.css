@@ -1,14 +1,10 @@
 .container {
   box-sizing: border-box;
-  padding-top: 40px;
-
-  margin: 0 auto;
-  box-sizing: border-box;
 }
 
 .inner {
   height: 50px;
-  padding: 0 82px;
+  padding: 40px 82px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,3 +50,9 @@
 }
 
 
+
+@media(max-width: 767px) {
+  .inner{
+    padding: 24px 24px;
+  }
+}
