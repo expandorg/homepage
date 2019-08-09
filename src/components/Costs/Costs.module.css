@@ -58,3 +58,19 @@
   border-radius: 5px;
 
 }
+@media(max-width: 767px) {
+  .cc {
+    padding: 40px 24px 30px;
+  }
+  .signup {
+    margin-top: 32px;
+  }
+  .est {
+    height: 73px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+  }
+}

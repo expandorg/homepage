@@ -70,3 +70,10 @@
 .action {
   margin-top: 32px;
 }
+
+
+@media(max-width: 767px) {
+  .container  {
+    display: none;
+  }
+}

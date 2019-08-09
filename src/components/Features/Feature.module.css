@@ -32,3 +32,10 @@
 
   margin-top: 13px;
 }
+
+@media(max-width: 767px) {
+  .feature  {
+    margin-bottom: 50px;
+    max-width: 100%;
+  }
+}

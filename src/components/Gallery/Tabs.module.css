@@ -9,11 +9,6 @@
   position: relative;
 }
 
-@media(max-width: 767px) {
-  .container  {
-    display: none;
-  }
-}
 
 .content {
   display: flex;
@@ -24,4 +19,23 @@
 .tab {
   width: 238px;
   height: 338px;
+}
+
+@media(max-width: 767px) {
+  .content  {
+    flex-wrap: wrap;
+  }
+
+  .tab {
+    margin-bottom: 20px;
+
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 24px;
+
+    box-sizing: border-box;
+  }
 }

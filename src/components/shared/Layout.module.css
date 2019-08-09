@@ -13,4 +13,8 @@
   .content {
     flex-direction: column;
   }
+
+  .left {
+    width: 100%;
+  }
 }

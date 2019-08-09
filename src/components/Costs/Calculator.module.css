@@ -76,3 +76,22 @@
   background-color: white;
 }
 
+@media(max-width: 767px) {
+  .content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 36px 24px;
+  }
+
+  .wrap {
+    width: 100%;
+    display: block;
+  }
+
+  .input {
+    margin-right: 10px;
+  }
+
+}

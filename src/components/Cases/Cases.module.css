@@ -35,3 +35,17 @@
 .img {
   max-width: 800px;
 }
+
+@media(max-width: 767px) {
+  .img {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  .cc {
+    padding: 40px 24px 125px;
+  }
+  .signup {
+    margin-top: 32px;
+    margin-bottom: 40px;
+  }
+}

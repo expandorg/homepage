@@ -24,3 +24,15 @@
   justify-content: space-between;
   align-items: stretch;
 }
+
+@media(max-width: 767px) {
+  .features  {
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+
+  .cc{
+    background-color: #CBFCF4;
+    padding: 86px 24px 65px;
+  }
+}
