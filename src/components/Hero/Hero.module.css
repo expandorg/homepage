@@ -1,7 +1,8 @@
 .container {
   box-sizing: border-box;
-  margin-top: 135px;
+
   height: 580px;
+  margin-top: 135px;
 
   background-image: url(./hero.png);
   background-position: right;
@@ -48,5 +49,21 @@
 .signup {
   margin-top: 27px;
   width: 180px;
-  background-color: #E60060;
+}
+
+@media(max-width: 767px) {
+  .container {
+    margin-top: 40px;
+  }
+
+  .hero {
+    padding-left: 24px;
+    padding-right: 24px;
+    background-position-x: 24px;
+  }
+
+  .signup {
+    margin-top: 27px;
+    width: 100%;
+  }
 }
