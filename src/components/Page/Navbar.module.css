@@ -8,6 +8,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  transition: padding 0.2s;
 }
 
 .logo {
