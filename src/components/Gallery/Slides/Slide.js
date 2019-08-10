@@ -35,7 +35,7 @@ export function Slide({ children, src, onChange, active, id }) {
       </div>
       <div className={styles.right}>
         <div className={styles.rc}>{children}</div>
-        <BackNext onChange={onChange} active={active} />
+        {onChange && <BackNext onChange={onChange} active={active} />}
       </div>
     </div>
   );

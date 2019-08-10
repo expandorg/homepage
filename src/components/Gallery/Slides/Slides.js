@@ -2,14 +2,9 @@ import { h } from 'preact';
 
 import { Slide, Title, Text, Action } from './Slide';
 
-export function First({ active, onChange }) {
+export function First({ active }) {
   return (
-    <Slide
-      src="/assets/content/0.png"
-      id={0}
-      active={active}
-      onChange={onChange}
-    >
+    <Slide src="/assets/content/0.png" id={0} active={active}>
       <Title>Data Processing</Title>
       <Text>
         About this customers’s use case to help the potential customer
@@ -29,14 +24,9 @@ export function First({ active, onChange }) {
   );
 }
 
-export function Second({ active, onChange }) {
+export function Second({ active }) {
   return (
-    <Slide
-      src="/assets/content/0.png"
-      id={1}
-      active={active}
-      onChange={onChange}
-    >
+    <Slide src="/assets/content/0.png" id={1} active={active}>
       <Title>Get Sign Ups</Title>
       <Text>
         About this customers’s use case to help the potential customer
@@ -54,14 +44,9 @@ export function Second({ active, onChange }) {
     </Slide>
   );
 }
-export function Third({ active, onChange }) {
+export function Third({ active }) {
   return (
-    <Slide
-      src="/assets/content/0.png"
-      id={2}
-      active={active}
-      onChange={onChange}
-    >
+    <Slide src="/assets/content/0.png" id={2} active={active}>
       <Title>Label Image video</Title>
       <Text>
         About this customers’s use case to help the potential customer
@@ -79,14 +64,9 @@ export function Third({ active, onChange }) {
     </Slide>
   );
 }
-export function Fourth({ active, onChange }) {
+export function Fourth({ active }) {
   return (
-    <Slide
-      src="/assets/content/0.png"
-      id={3}
-      active={active}
-      onChange={onChange}
-    >
+    <Slide src="/assets/content/0.png" id={3} active={active}>
       <Title>Data Collection</Title>
       <Text>
         About this customers’s use case to help the potential customer
@@ -104,14 +84,9 @@ export function Fourth({ active, onChange }) {
     </Slide>
   );
 }
-export function Fifth({ active, onChange }) {
+export function Fifth({ active }) {
   return (
-    <Slide
-      src="/assets/content/0.png"
-      id={4}
-      active={active}
-      onChange={onChange}
-    >
+    <Slide src="/assets/content/0.png" id={4} active={active}>
       <Title>Content Curation</Title>
       <Text>
         About this customers’s use case to help the potential customer

@@ -28,11 +28,11 @@ export default class Gallery extends Component {
           <div className={styles.content}>
             <Tabs onChange={this.handleChange} active={active} />
             <Container>
-              <First onChange={this.handleChange} active={active} />
-              <Second onChange={this.handleChange} active={active} />
-              <Third onChange={this.handleChange} active={active} />
-              <Fourth onChange={this.handleChange} active={active} />
-              <Fifth onChange={this.handleChange} active={active} />
+              <First active={active} />
+              <Second active={active} />
+              <Third active={active} />
+              <Fourth active={active} />
+              <Fifth active={active} />
             </Container>
           </div>
         </div>
