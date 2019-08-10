@@ -14,7 +14,7 @@ export default function Tabs({ selected, onChange, tabs }) {
               key={tab.id}
               tab={tab}
               active={selected === tab.id}
-              onChange={onChange}
+              onSelect={onChange}
             />
           </div>
         ))}
