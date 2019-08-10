@@ -60,6 +60,10 @@
   .cc {
     padding: 40px 24px 30px;
   }
+  .right {
+    margin-top: 40px;
+  }
+
   .signup {
     margin-top: 32px;
   }
