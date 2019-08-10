@@ -4,12 +4,15 @@
   box-sizing: border-box;
   border: 1px solid transparent;
   border-radius: 20px;
-  box-shadow: 0px 4px 4px #DFEEFF;
 
   cursor: pointer;
 
   height: 338px;
   position: relative;
+}
+
+.container:hover {
+  box-shadow: 0px 4px 4px #DFEEFF;
 }
 
 .img {
@@ -73,6 +76,10 @@
 }
 
 @media(max-width: 767px) {
+  .container {
+    box-shadow: 0px 4px 4px #DFEEFF;
+  }
+
   .container::after   {
     display: none;
   }
