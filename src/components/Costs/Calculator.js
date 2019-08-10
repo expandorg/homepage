@@ -11,14 +11,10 @@ function cost(mins, tasks) {
 }
 
 export default class Calculator extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      mins: '',
-      tasks: '',
-    };
-  }
+  state = {
+    mins: '',
+    tasks: '',
+  };
 
   handleChange = ({ target }) => {
     this.setState({ [target.name]: target.value });

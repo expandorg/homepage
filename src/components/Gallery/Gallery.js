@@ -3,36 +3,34 @@ import { Component } from 'preact';
 import SectionHeader from '../shared/Section/Header';
 import Tabs from './Tabs';
 import { Container } from './Slides/Slide';
-import { First, Second, Third, Fourth, Fifth } from './Slides/Slides';
+import { tabs } from './Slides/Slides';
 
 import styles from './Gallery.module.css';
 
 export default class Gallery extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      active: 0,
-    };
-  }
-
-  handleChange = active => {
-    this.setState({ active });
+  state = {
+    selected: 0,
   };
 
-  render(_, { active }) {
+  handleChange = selected => {
+    this.setState({ selected });
+  };
+
+  render(_, { selected }) {
     return (
       <div className={styles.container}>
         <SectionHeader title="Here’s some inspiration" color="white" />
         <div className={styles.cc}>
           <div className={styles.content}>
-            <Tabs onChange={this.handleChange} active={active} />
+            <Tabs
+              tabs={tabs}
+              onChange={this.handleChange}
+              selected={selected}
+            />
             <Container>
-              <First active={active} />
-              <Second active={active} />
-              <Third active={active} />
-              <Fourth active={active} />
-              <Fifth active={active} />
+              {tabs.map(({ Content, id }) => (
+                <Content key={id} active={selected === id} />
+              ))}
             </Container>
           </div>
         </div>

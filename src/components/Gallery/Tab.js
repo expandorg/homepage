@@ -4,19 +4,15 @@ import cn from 'classnames';
 
 import styles from './Tab.module.css';
 
-export default function Tab({ active, onChange, item }) {
+export default function Tab({ tab, onChange, active }) {
   return (
     <div
-      className={cn(styles.container, { [styles.active]: active === item.id })}
-      onClick={() => onChange(item.id)}
+      className={cn(styles.container, { [styles.active]: active })}
+      onClick={() => onChange(tab.id)}
     >
-      <img
-        src={`./assets/tabs/${item.id}.png`}
-        alt={item.title}
-        className={styles.img}
-      />
-      <div className={styles.title}>{item.title}</div>
-      <div className={styles.text}>{item.text}</div>
+      <img src={tab.tabImg} alt={tab.title} className={styles.img} />
+      <div className={styles.title}>{tab.title}</div>
+      <div className={styles.text}>{tab.text}</div>
     </div>
   );
 }

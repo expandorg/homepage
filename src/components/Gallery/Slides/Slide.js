@@ -1,7 +1,5 @@
 import { h } from 'preact';
-import cn from 'classnames';
 
-import BackNext from './BackNext';
 import ActionLink from '../../shared/ActionLink';
 
 import styles from './Slide.module.css';
@@ -26,16 +24,17 @@ export function Action({ children, href }) {
   );
 }
 
-export function Slide({ children, src, onChange, active, id }) {
-  const visible = active === id;
+export function Slide({ children, active, img }) {
+  if (!active) {
+    return null;
+  }
   return (
-    <div className={cn(styles.content, { [styles.visible]: visible })}>
+    <div className={styles.content}>
       <div className={styles.left}>
-        <img src={src} className={styles.img} />
+        <img src={img} className={styles.img} />
       </div>
       <div className={styles.right}>
         <div className={styles.rc}>{children}</div>
-        {onChange && <BackNext onChange={onChange} active={active} />}
       </div>
     </div>
   );

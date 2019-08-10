@@ -2,9 +2,9 @@ import { h } from 'preact';
 
 import { Slide, Title, Text, Action } from './Slide';
 
-export function First({ active }) {
+function First({ active }) {
   return (
-    <Slide src="/assets/content/0.png" id={0} active={active}>
+    <Slide img="/assets/gallery/slide0.png" active={active}>
       <Title>Data Processing</Title>
       <Text>
         About this customers’s use case to help the potential customer
@@ -24,9 +24,9 @@ export function First({ active }) {
   );
 }
 
-export function Second({ active }) {
+function Second({ active }) {
   return (
-    <Slide src="/assets/content/0.png" id={1} active={active}>
+    <Slide img="/assets/gallery/slide0.png" active={active}>
       <Title>Get Sign Ups</Title>
       <Text>
         About this customers’s use case to help the potential customer
@@ -44,9 +44,9 @@ export function Second({ active }) {
     </Slide>
   );
 }
-export function Third({ active }) {
+function Third({ active }) {
   return (
-    <Slide src="/assets/content/0.png" id={2} active={active}>
+    <Slide img="/assets/gallery/slide0.png" active={active}>
       <Title>Label Image video</Title>
       <Text>
         About this customers’s use case to help the potential customer
@@ -64,9 +64,10 @@ export function Third({ active }) {
     </Slide>
   );
 }
-export function Fourth({ active }) {
+
+function Fourth({ active }) {
   return (
-    <Slide src="/assets/content/0.png" id={3} active={active}>
+    <Slide img="/assets/gallery/slide0.png" active={active}>
       <Title>Data Collection</Title>
       <Text>
         About this customers’s use case to help the potential customer
@@ -84,9 +85,10 @@ export function Fourth({ active }) {
     </Slide>
   );
 }
-export function Fifth({ active }) {
+
+function Fifth({ active }) {
   return (
-    <Slide src="/assets/content/0.png" id={4} active={active}>
+    <Slide img="/assets/gallery/slide0.png" active={active}>
       <Title>Content Curation</Title>
       <Text>
         About this customers’s use case to help the potential customer
@@ -104,3 +106,41 @@ export function Fifth({ active }) {
     </Slide>
   );
 }
+
+export const tabs = [
+  {
+    id: 0,
+    tabImg: '/assets/gallery/tab0.png',
+    title: 'Conduct Surveys',
+    text: 'Description about case study goes here.',
+    Content: First,
+  },
+  {
+    id: 1,
+    tabImg: '/assets/gallery/tab1.png',
+    title: 'Get Sign Ups',
+    text: 'Description about case study goes here.',
+    Content: Second,
+  },
+  {
+    id: 2,
+    tabImg: '/assets/gallery/tab2.png',
+    title: ' Label Image video',
+    text: 'Description about case study goes here.',
+    Content: Third,
+  },
+  {
+    id: 3,
+    tabImg: '/assets/gallery/tab3.png',
+    title: 'Data Collection',
+    text: 'Description about case study goes here.',
+    Content: Fourth,
+  },
+  {
+    id: 4,
+    tabImg: '/assets/gallery/tab4.png',
+    title: 'Content Curation',
+    text: 'Description about case study goes here.',
+    Content: Fifth,
+  },
+];
