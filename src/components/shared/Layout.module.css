@@ -9,6 +9,10 @@
   min-width: 320px;
 }
 
+.right {
+  margin-left: 10px;
+}
+
 @media(max-width: 767px) {
   .content {
     flex-direction: column;
@@ -17,4 +21,9 @@
   .left {
     width: 100%;
   }
+
+  .right {
+    margin-left: 0;
+  }
+
 }

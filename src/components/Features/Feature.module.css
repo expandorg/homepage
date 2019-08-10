@@ -22,6 +22,10 @@
   color: #25796A;
 }
 
+.img {
+  max-height: 200px;
+}
+
 .text {
   font-family: Avenir;
   font-style: normal;

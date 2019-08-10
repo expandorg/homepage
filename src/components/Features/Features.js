@@ -16,17 +16,17 @@ export default function Features() {
         <div className={styles.content}>
           <div className={styles.features}>
             <Feature
-              img={'/assets/feature1.svg'}
+              img={'/assets/feature1.png'}
               title="Best Possivle Price"
               text="We don’t take any fee for the work on the platform. Know the workers get 100% of what you are paying out"
             />
             <Feature
-              img={'/assets/feature2.svg'}
+              img={'/assets/feature2.png'}
               title="Quality Results"
               text="We build quality management into all our solutions, through test questions, verification systems, and more. This gives you both the best price, and highest quality results."
             />
             <Feature
-              img={'/assets/feature3.svg'}
+              img={'/assets/feature3.png'}
               title="Flexibility"
               text="If there is something you want to change, edit, or customize we are here to help.  Our team consists of industry experts who have worked in various areas of AI. We are eager to find out what you need to succeed."
             />
