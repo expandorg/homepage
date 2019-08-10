@@ -38,6 +38,17 @@
 }
 
 @media(max-width: 767px) {
+
+  .img {
+    width: 100%;
+    max-height: initial;
+  }
+
+  .content {
+    margin-top: 24px;
+  }
+
+
   .feature  {
     margin-bottom: 50px;
     max-width: 100%;
