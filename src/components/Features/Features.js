@@ -17,7 +17,7 @@ export default function Features() {
           <div className={styles.features}>
             <Feature
               img={'/assets/feature1.png'}
-              title="Best Possivle Price"
+              title="Best Possible Price"
               text="We don’t take any fee for the work on the platform. Know the workers get 100% of what you are paying out"
             />
             <Feature
@@ -31,9 +31,9 @@ export default function Features() {
               text="If there is something you want to change, edit, or customize we are here to help.  Our team consists of industry experts who have worked in various areas of AI. We are eager to find out what you need to succeed."
             />
             <Feature
-              img={'/assets/feature4.svg'}
-              title="Get Started Today"
-              text="We believe the product speaks for itself. No need to talk to a sales person to make your job."
+              img={'/assets/feature4.png'}
+              title="Rapid Task Building"
+              text="We believe the product speaks for itself with our easy to use, drag and drop interface. No need to talk to a sales person to make your job."
             />
           </div>
         </div>
