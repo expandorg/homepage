@@ -1,6 +1,6 @@
 .container {
   box-sizing: border-box;
-  margin-top: -30px;
+  margin-top: -50px;
 }
 
 .content {
@@ -10,6 +10,6 @@
 
 .cc {
     background: white;
-    padding-top: 70px;
+    padding-top: 55px;
     padding-bottom: 100px;
 }
