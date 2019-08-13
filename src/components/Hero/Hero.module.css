@@ -2,12 +2,12 @@
   box-sizing: border-box;
 
   height: 580px;
-  margin-top: 135px;
+  margin-top: 50px;
   padding-left: 24px;
   padding-right: 24px;
 
   background-image: url(./hero.png);
-  background-position: right;
+  background-position: right top;
   background-repeat: no-repeat;
   background-size: contain;
   background-origin: border-box;
@@ -15,10 +15,11 @@
 
 .hero {
   box-sizing: border-box;
+  padding-top: 20px;
 
   background-image: url(./bg2.png);
   background-position-x: 40px;
-  background-position-y: 0px;
+  background-position-y: 20px;
   background-repeat: no-repeat;
   background-size: initial;
 
@@ -83,6 +84,8 @@
 
   .hero {
     background-position-x: 24px;
+    background-position-y: 0px;
+    padding-top: 0
   }
 
   .signup {
