@@ -18,10 +18,12 @@ export default function Costs() {
         <Content>
           <Left>
             <div className={styles.text}>
-              If you have a job in mind, you can calculate your potential cost
-              here. The range above is included becuase the budget should vary
-              in accordance wiht the on the skill level required for your task.
-              More highly skilled workers will require higher pay.
+              Expand takes no fee. Everything you pay goes straight to the
+              workforce. *You set your own budget and price per job which will
+              vary on skill, speed, and quality needed. To help you decide what
+              to pay, we have a small test calculator. In actuality, you will
+              want to pay more or less depending on skill, quality, and speed
+              needed.
               <br />
               <br />
             </div>
@@ -34,10 +36,6 @@ export default function Costs() {
           </Left>
           <Right className={styles.right}>
             <Calculator />
-            <div className={styles.est}>
-              Estimated Cost with out Competitors, for the same task: $540 -
-              $2,400.
-            </div>
           </Right>
         </Content>
       </div>

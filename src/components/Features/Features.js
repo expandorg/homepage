@@ -18,7 +18,7 @@ export default function Features() {
             <Feature
               img={'/assets/feature1.png'}
               title="Best Possible Price"
-              text="We don’t take any fee for the work on the platform. Know the workers get 100% of what you are paying out"
+              text="We don’t take any fee from the workers or requesters. Know workers get 100% of what you are paying out"
             />
             <Feature
               img={'/assets/feature2.png'}

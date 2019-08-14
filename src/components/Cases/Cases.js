@@ -22,9 +22,9 @@ export default function Cases() {
               needs outsourcing?
               <br />
               <br />
-              Our product and its features allow you to build your tasks
-              accoriding to your needs. And our workerbase completes these tasks
-              with realability and timeliness.
+              Expand allows you to build your tasks accoriding to your needs.
+              And our worker base completes these tasks with realability and
+              timeliness.
             </div>
             <ActionLink
               className={styles.signup}

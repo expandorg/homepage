@@ -10,8 +10,21 @@ export default function Navbar() {
           Expand
         </a>
         <div className={styles.right}>
-          <a className={styles.login} href="https://expand.org">
-            log in
+          <a
+            className={styles.login}
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://requester.expand.org"
+          >
+            Requester
+          </a>
+          <a
+            className={styles.login}
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://portal.expand.org"
+          >
+            Worker
           </a>
         </div>
       </div>

@@ -17,9 +17,11 @@ export default function Hero() {
             marketplace.
           </h1>
           <h3 className={styles.subtitle}>
-            Easy to Get Started. High-Quality Worker Base.
+            Easy to Get Started. High-Quality Workers.
             <br />
             Ethical Pricing for Workers & Requesters.
+            <br />
+            Built in Quality Management.
           </h3>
           <ActionLink
             className={styles.signup}
@@ -28,7 +30,12 @@ export default function Hero() {
             Sign up
           </ActionLink>
           <div className={styles.secondary}>
-            <a className={styles.worker} href="https://expand.org">
+            <a
+              className={styles.worker}
+              href="https://portal.expand.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Are you a worker?
             </a>
           </div>
