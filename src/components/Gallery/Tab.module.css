@@ -1,19 +1,21 @@
 .container {
+  position: relative;
   box-sizing: border-box;
   padding: 16px 16px;
+
+  height: 373px;
 
   box-sizing: border-box;
   border: 1px solid transparent;
   border-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 
   cursor: pointer;
-
-  height: 338px;
-  position: relative;
 }
 
 .container:hover {
-  box-shadow: 0px 4px 4px #DFEEFF;
+  box-shadow: 0px -4px 4px #DFEEFF;
 }
 
 .content {
@@ -85,6 +87,8 @@
 @media(max-width: 767px) {
   .container {
     height: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     box-shadow: 0px 4px 4px #DFEEFF;
   }
 
@@ -106,7 +110,6 @@
   .active {
     height: auto;
     border: 1px solid transparent;
-    border-radius: 20px;
     box-shadow: 0px 4px 4px #DFEEFF;
 
     cursor: pointer;
