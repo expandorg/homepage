@@ -7,7 +7,7 @@ function First({ active }) {
     <Slide img="https://expand.org/images/image-annotation.png" active={active}>
       <Title>AI Solutions</Title>
       <Text>
-        Expand has interfaces for text, image, video, and audio anotation. Our
+        Expand has interfaces for text, image, video, and audio annotation. Our
         workers have labeled logos in images, determined what camera pose (slow
         motion, panning, zoom) is used in videos, and have identified various
         martial arts moves in videos. <br />
@@ -18,7 +18,7 @@ function First({ active }) {
         <br />
         Video camera classification: $0.10 / video
         <br />
-        Martial arts classicifaction: $0.19 / video
+        Martial arts classification: $0.19 / video
         <br />
         <br />
         To ensure quality of the results, workers with high accuracy verified

@@ -18,12 +18,12 @@ export default function Cases() {
           <Left>
             <div className={styles.text}>
               Do you need to train AI? Are you doing research requiring
-              collection or of data? Do you have a business proceedure that
+              collection or of data? Do you have a business procedure that
               needs outsourcing?
               <br />
               <br />
-              Expand allows you to build your tasks accoriding to your needs.
-              And our worker base completes these tasks with realability and
+              Expand allows you to build your tasks according to your needs.
+              And our worker base completes these tasks with reliability and
               timeliness.
             </div>
             <ActionLink
